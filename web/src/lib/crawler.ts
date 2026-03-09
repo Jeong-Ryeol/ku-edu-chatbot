@@ -119,7 +119,7 @@ export async function fetchDetail(
 
 /** 새 게시글을 크롤링하여 반환 */
 export async function crawlNewArticles(
-  existingIds: Set<number>,
+  existingIds: Set<number | string>,
   onProgress?: (msg: string) => void
 ): Promise<QAArticle[]> {
   const newArticles: QAArticle[] = [];
