@@ -1,4 +1,4 @@
-import { QAArticle, loadQAData } from "./qaData";
+import { QAArticle, loadAllData } from "./qaData";
 
 // 한국어 불용어
 const STOP_WORDS = new Set([
@@ -28,7 +28,7 @@ function tokenize(text: string): string[] {
 }
 
 function buildIndex(): TFIDFIndex {
-  const articles = loadQAData();
+  const articles = loadAllData();
   const documents: TFIDFIndex["documents"] = [];
   const docFreq = new Map<string, number>();
 
