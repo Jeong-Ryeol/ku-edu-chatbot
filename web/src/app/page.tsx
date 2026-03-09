@@ -206,7 +206,8 @@ export default function Home() {
                 >
                   Q&A 게시판
                 </a>
-                의 공식 답변을 기반으로 안내해드립니다. 개발관련 버그나
+                의 공식 답변과 모집요강, OT 학사안내, 입시 FAQ 등 공식 PDF
+                문서를 함께 참고하여 안내해드립니다. 개발관련 버그나
                 질문은 정원렬(
                 <span className="font-medium text-gray-700">
                   010-5737-5336
