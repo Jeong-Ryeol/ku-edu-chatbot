@@ -1,5 +1,6 @@
 import Image from "next/image";
 import HomeCard from "@/components/HomeCard";
+import SyncPanel from "@/components/SyncPanel";
 
 export default function Home() {
   return (
@@ -170,8 +171,11 @@ export default function Home() {
           />
         </div>
 
+        {/* 데이터베이스 & 동기화 */}
+        <SyncPanel />
+
         {/* 안내 문구 */}
-        <div className="mt-12 rounded-2xl bg-white border border-gray-200 p-6 md:p-8 shadow-sm">
+        <div className="mt-5 rounded-2xl bg-white border border-gray-200 p-6 md:p-8 shadow-sm">
           <div className="flex items-start gap-4">
             <div className="hidden sm:flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[var(--ku-crimson)]/10 text-[var(--ku-crimson)]">
               <svg

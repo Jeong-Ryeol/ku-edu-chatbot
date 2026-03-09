@@ -66,6 +66,10 @@ function buildIndex(): TFIDFIndex {
   return { documents, idf };
 }
 
+export function resetSearchIndex(): void {
+  index = null;
+}
+
 export function searchQA(query: string, topK: number = 5): QAArticle[] {
   if (!index) {
     index = buildIndex();
