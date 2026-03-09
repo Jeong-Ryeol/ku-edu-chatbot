@@ -241,6 +241,17 @@ export default function Home() {
             <div className="text-xs text-gray-400 text-center sm:text-right">
               <p>TEL 02-3290-1378</p>
               <p>&copy; Korea University Graduate School of Education</p>
+              <p className="mt-1">
+                Developed by{" "}
+                <a
+                  href="https://github.com/Jeong-Ryeol"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-500 hover:text-gray-700 transition-colors"
+                >
+                  정원렬
+                </a>
+              </p>
             </div>
           </div>
         </div>
