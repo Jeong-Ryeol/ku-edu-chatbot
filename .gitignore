@@ -28,5 +28,5 @@ next-env.d.ts
 # crawler data (large files)
 crawler/data/
 
-# original PDFs at root
-*.pdf
+# original PDFs at root (not web/public/docs/)
+/*.pdf
